@@ -1,0 +1,117 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif; /* Custom font-family */
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.header-footer {
+    background-color: #7c7c7c; /* Grey background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px auto;
+    width: 80%; /* Centered grey box */
+    border-radius: 10px; /* Slightly rounded edges */
+}
+
+/* Nav Box */
+#nav-box {
+    background-color: blue;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Nav Items */
+#nav-box ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-box li {
+    margin: 0 15px;
+}
+
+#nav-box li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#nav-box li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content and Sidebar Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+.main-content {
+    width: 65%;
+    background-color: #b0e0e6; /* Light blue */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+form label {
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+input[type="text"] {
+    width: 150px;
+    padding: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    width: 200px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc3700;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background-color: #00ced1; /* Different color from main content */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar:hover {
+    background-color: #008b8b; /* Darker shade on hover */
+}
+
+/* Footer */
+.header-footer {
+    background-color: #7c7c7c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
